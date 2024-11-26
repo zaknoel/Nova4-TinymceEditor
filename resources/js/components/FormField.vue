@@ -22,7 +22,8 @@
 import { DependentFormField, HandlesValidationErrors } from 'laravel-nova'
 import Editor from '@tinymce/tinymce-vue'
 import { uuid } from '@tinymce/tinymce-vue/lib/es2015/main/ts/Utils'
-
+console.log(uuid(currentField.attribute));
+conole.log(currentField.attribute)  
 export default {
   mixins: [DependentFormField, HandlesValidationErrors],
 
